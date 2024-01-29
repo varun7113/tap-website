@@ -1,0 +1,501 @@
+.header{
+    display: flex;
+    height: 50px;
+    align-items: center; /*it helps to allin all the elements in navbar to be at center*/
+    justify-content: space-evenly;/*when we keep on adding content it keeps on miving to left*/
+    font-family: sans-serif;
+}
+.border:hover{
+    border: 2px solid black;
+    background-color: #00aaff;
+
+}
+.headdata{
+    display: flex;
+    width: 950px;
+    color: #222222;
+    font-size: 1rem;
+    margin-left: 60px;
+}
+.headdata a{
+    padding-left: 15px;
+}
+.headmail{
+    display: flex;
+    height: 15px;
+    color: #222222;
+    font-size: 1rem;
+}
+.headmail a{
+    padding-left: 15px;
+}
+.youtubelogo{
+    font-size: 2rem;
+    padding-right: 10%;
+    
+}
+
+
+/*header2*/
+
+.header2{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tap-logo{
+    background-image: url(job.jpeg);
+    height: 52px;
+    width: 130px;
+    margin-right: 70px;
+    
+}
+.header-options a{
+    margin-left: 40px;
+}
+
+.header-options{
+    height: 46px;
+    width: 830px;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header2-last{
+    border: 2px solid rgb(0, 115, 255);
+    color: #053E56;
+    margin-right: 95px;
+}
+.box{
+    width: 100px;
+    
+}
+
+
+
+.header2-last:hover{
+    background-color: #10a1df;
+}
+ 
+/*hero*/
+
+.hero{
+    height: 600px;
+    background-color: #053E56;
+    display: flex;
+}
+.first-lhero{
+    padding-top: 40px;
+    color: #07f907;
+    font-size: 1.2rem;
+    padding-left: 120px;
+}
+.second-lhero{
+    color: white;
+    font-size: 1.5rem;
+    height: 124;
+    width: 560;
+    padding-left: 120px;
+}
+.third-lhero{
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 120px;
+}
+.him{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+
+.fourth-lhero{
+    display: flex;
+    margin-right: 40%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
+/* square*/
+.mainsquare {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsquare 
+{
+    margin-bottom: 100px;
+    border: 2px solid white;
+    height: 250px;
+    width: 300px;
+    text-align: center; /* Center text within the div */
+    padding-top: 60px;
+    columns: #555555;
+    font-size: 1.1rem;
+    background-color: white;
+}
+.firstsquare1 
+{
+    margin-bottom: 100px;
+    margin-left: 30px;
+    border: 2px solid white;
+    height: 250px;
+    width: 300px;
+    text-align: center; /* Center text within the div */
+    padding-top: 60px;
+    columns: #555555;
+    font-size: 1.1rem;
+    background-color: white;
+}
+.firstsquare2 
+{
+    margin-bottom: 100px;
+    margin-left: 30px;
+    border: 2px solid white;
+    height: 250px;
+    width: 300px;
+    text-align: center; /* Center text within the div */
+    padding-top: 60px;
+    columns: #555555;
+    font-size: 1.1rem;
+    background-color: white;
+}
+/*secondsquare*/
+.seconddiv h3{
+    font-size: 2.5rem;
+    color: #053E56;
+}
+.seconddiv p{
+    color: #252b33;
+    font-size: 1.5rem;
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+
+.thum{
+    width: 1120px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 150px;
+    background-color: #053E56;
+    border-radius: 8 px;
+}
+
+.thum1 h3{
+    padding-right: 83%;
+    color: #07f907;
+}
+
+.thum1 h2{
+    padding-right: 65%;
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 30px;
+}
+.thum1 p{
+    padding-right: 53%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+/*div*/
+
+.goodstudents{
+    width: 1472px;
+    height: 1170px;
+}
+.editthis{
+    margin-top: 150px;
+}
+.editthis h3{
+    font-size: 2.5rem;
+    color: #053E56;
+} 
+
+.editthis p{
+    color: #252b33;
+    font-size: 1.5rem;
+}
+.fig{
+    padding-top: 3%;
+}
+
+
+/*div*/
+
+
+.editthem{
+    padding-top: 8%;
+}
+
+.editthem h3{
+    font-size: 2.5rem;
+    color: #053E56;
+
+}
+.editthem p{
+    color: #252b33;
+    font-size: 1.5rem;
+}
+
+/*div*/
+
+.endofdiv{
+
+    margin-top: 10%;
+}
+
+.editme h3{
+    font-size: 2.5rem;
+    color: #053E56;
+
+}
+
+/* div*/
+
+.thisismain{
+    height: 1100px;
+    background-color: #053E56;
+    padding-top: 30px;
+}
+
+.laptop{
+    width: 70%;
+}
+.laptop h1{
+    color: #ffffff83;
+}
+.laptop h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.laptop p{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.mobile{
+    display: flex;
+    justify-content: center;
+}
+.firstboxdiv{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 9px;
+    margin-top: 40px;
+}
+.firstboxdiv h2{
+    color: #053E56;
+    font-size: 2.5rem;
+    padding-left: 20px;
+}
+.firstboxdiv p{
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
+.secondboxdiv{
+    height: 700px;
+    width: 600px;
+   
+    margin-left: 10px;
+    justify-content: center;
+}
+
+
+/*div*/
+
+.sector{
+    height: 1000px;
+    padding-top: 30px;
+    
+}
+.cpu{
+    width: 70%;
+}
+
+.cpu h2{
+    color: #053E56;
+    font-size: 2.5rem;
+}
+.cpu p{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.cpu-div{
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 9px;
+    margin-top: 40px;
+}
+.cpu-ram{
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 9px;
+    margin-top: 40px;
+    
+}
+.yoyo{
+    display: flex;
+    justify-content: center;
+}
+.cpu-div h2{
+    padding-left: 40px;
+}
+.cpu-div p{
+    padding-left: 40px;
+    font-size: 1.2rem;
+}
+
+.cpu-ram h2{
+    padding-left: 40px;
+}
+.cpu-ram p{
+    padding-left: 40px;
+    font-size: 1.2rem;
+}
+.box9 h3{
+    color:white; 
+    border: 2px solid #00aaff;
+    background-color: #00aaff;
+    width: 20%;
+    border-radius: 9px;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
+}
+.box10 h3{
+    color:white; 
+    border: 2px solid #00aaff;
+    background-color: #00aaff;
+    width: 20%;
+    border-radius: 9px;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
+}
+
+
+/*div*/
+
+.learning{
+    height: 550px;
+    padding-top: 30px;
+    
+}
+
+ram{
+    width: 70%;
+}
+
+.ram h2{
+    color: #053E56;
+    font-size: 2.5rem;
+}
+.ram p{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.divfour{
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+    
+}
+
+.div1{
+    border: 2px solid black;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    
+}
+.div2{
+    border: 2px solid black;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+.div3{
+    border: 2px solid black;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    border-radius: 9px;
+}
+.div4{
+    border: 2px solid black;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+
+
+/*div*/
+
+.mouse{
+    height: 550px;
+    padding-top: 30px;
+    
+}
+
+
+.event{
+    width: 70%;
+}
+
+
+.event h2{
+    color: #053E56;
+    font-size: 2.5rem;
+}
+
+/*last div*/
+footer{
+    margin-top: 15px;
+}
+
+
+.foot-panel2{
+    background-color: #252B33;
+    color: white;
+    display: flex;
+    justify-content: space-evenly; /* in that div it will align all that p tag one next to other evenly*/
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
